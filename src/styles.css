@@ -1,4 +1,25 @@
+/*https://medium.com/@ensallee/a-10-step-guide-to-flexbox-fa00e7b03bf7 */
+
 .App {
   font-family: sans-serif;
+}
+
+h1 {
   text-align: center;
+}
+
+/* .container {
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  grid-auto-rows: 1.6em;
+  grid-gap: 10px;
+} */
+
+.container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  grid-template-columns: 20% 20% 20%;
+  grid-auto-rows: 1.6em;
+  grid-gap: 10px;
 }
